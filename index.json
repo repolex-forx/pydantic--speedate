@@ -1,0 +1,11 @@
+{
+  "org": "pydantic",
+  "repo": "speedate",
+  "versions": [
+    {
+      "commit": "a68ce8660d0488b82fade9cfc6b9665d0a30cf09",
+      "tag": "",
+      "parsed_at": "2026-10-11T19:29:11.511305+00:00"
+    }
+  ]
+}
