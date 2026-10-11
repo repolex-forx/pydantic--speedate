@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/pydantic/speedate/commit/a68ce8660d0488b82fade9cfc6b9665d0a30cf09",
       "git:hexsha": "a68ce8660d0488b82fade9cfc6b9665d0a30cf09",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/pydantic/speedate/commit/2fedc44bfff652787122a014d39d1e0290f00f0b",
