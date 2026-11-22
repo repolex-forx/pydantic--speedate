@@ -161,7 +161,9 @@
           "githubUrl": "https://github.com/dtolnay/paste",
           "source": "build_file:Cargo.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/2eca9dfddcc342e6a1a14e2489ec2dfd3bac0095/chunk-001.nq.gz",
+      "dep": "dep/2eca9dfddcc342e6a1a14e2489ec2dfd3bac0095.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
