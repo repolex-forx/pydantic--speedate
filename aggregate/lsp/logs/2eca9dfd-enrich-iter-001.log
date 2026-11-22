@@ -1,0 +1,17 @@
+[2026-11-22T05:48:52Z] === ENRICH ITERATION 1 START | repo=pydantic/speedate sha=2eca9dfd ===
+[2026-11-22T05:48:52Z] [iter=1] PHASE START: enrich repo=pydantic/speedate sha=2eca9dfd runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/2eca9dfd-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/2eca9dfddcc342e6a1a14e2489ec2dfd3bac0095.nq.gz
+[2026-11-22T05:48:57Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T05:48:58Z] [iter=1] AST store loaded triples=168666 load_secs=1 mem_mb=312 MB
+[2026-11-22T05:48:58Z] [iter=1] Step 2: Finding LSP targets mem_mb=312 MB
+[2026-11-22T05:48:58Z] [iter=1] LSP targets found call_sites=1387 imports=40 extends=0 implements=0 secs=0
+[2026-11-22T05:48:58Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=312 MB
+[2026-11-22T05:48:59Z] [iter=1] Position index built positions=11557 nodes_with_types=13709 secs=1 mem_mb=312 MB
+[2026-11-22T05:48:59Z] [iter=1] Step 3: Starting LSP resolution mem_mb=312 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T05:48:59Z] [iter=1] Resolving target type target_type=call_site count=1387
+[2026-11-22T05:49:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=2 resolved=829 errors=0 current=src/duration.rs
+[2026-11-22T05:49:40Z] [iter=1] Target type resolved target_type=call_site resolved=1269 errors=0 secs=41 mem_mb=312 MB
+[2026-11-22T05:49:40Z] [iter=1] Resolving target type target_type=import_statement count=40
+[2026-11-22T05:49:47Z] [iter=1] Target type resolved target_type=import_statement resolved=33 errors=0 secs=7 mem_mb=312 MB
+[2026-11-22T05:50:11Z] [iter=1] Step 5: Writing final enrichment file triples=14763
+[2026-11-22T05:50:11Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/2eca9dfddcc342e6a1a14e2489ec2dfd3bac0095.nq.gz size_kb=249
+[2026-11-22T05:50:11Z] [iter=1] PHASE END: enrich elapsed_s=79 elapsed_min=1.3 total_triples=14763

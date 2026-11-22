@@ -96,6 +96,71 @@
       ],
       "ast": [
         "aggregate/ast/2eca9dfddcc342e6a1a14e2489ec2dfd3bac0095/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/2eca9dfddcc342e6a1a14e2489ec2dfd3bac0095.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "lexical-parse-float",
+          "ecosystem": "CARGO",
+          "version": "1.0.5",
+          "githubOrg": "Alexhuszagh",
+          "githubRepo": "rust-lexical",
+          "githubCommit": "84c1c497edd80ef1f8256be58c44efcfe266fcb8",
+          "githubTag": "v1.0.5",
+          "githubUrl": "https://github.com/Alexhuszagh/rust-lexical",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "strum",
+          "ecosystem": "CARGO",
+          "version": "0.27",
+          "githubOrg": "Peternator7",
+          "githubRepo": "strum",
+          "githubUrl": "https://github.com/Peternator7/strum",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "strum_macros",
+          "ecosystem": "CARGO",
+          "version": "0.27",
+          "githubOrg": "Peternator7",
+          "githubRepo": "strum",
+          "githubUrl": "https://github.com/Peternator7/strum",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "chrono",
+          "ecosystem": "CARGO",
+          "version": "0.4.19",
+          "githubOrg": "chronotope",
+          "githubRepo": "chrono",
+          "githubCommit": "4eeedcfcc409f19d965f477d767d05f3418c4df1",
+          "githubTag": "v0.4.19",
+          "githubUrl": "https://github.com/chronotope/chrono",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "iso8601",
+          "ecosystem": "CARGO",
+          "version": "0.6.1",
+          "githubOrg": "badboy",
+          "githubRepo": "iso8601",
+          "githubCommit": "c0b5c002c013fd51a559a2cd77e83dc843fe5e15",
+          "githubTag": "v0.6.1",
+          "githubUrl": "https://github.com/badboy/iso8601",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "paste",
+          "ecosystem": "CARGO",
+          "version": "1.0.7",
+          "githubOrg": "dtolnay",
+          "githubRepo": "paste",
+          "githubCommit": "76f2101fb23808d25c90dcba10f24bcc2cc6986c",
+          "githubTag": "1.0.7",
+          "githubUrl": "https://github.com/dtolnay/paste",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
