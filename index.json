@@ -3,6 +3,11 @@
   "repo": "speedate",
   "versions": [
     {
+      "commit": "2eca9dfddcc342e6a1a14e2489ec2dfd3bac0095",
+      "tag": "v0.17.0",
+      "parsed_at": "2026-11-22T05:52:42.031225+00:00"
+    },
+    {
       "commit": "a68ce8660d0488b82fade9cfc6b9665d0a30cf09",
       "tag": "",
       "parsed_at": "2026-10-11T19:29:11.511305+00:00"
